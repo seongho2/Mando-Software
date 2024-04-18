@@ -7,29 +7,35 @@ int main()
     double sum=0;
     char oper;
     
-        cout << "XÀÇ °ªÀ» ÀÔ·Â: ";
+        cout << "Xì˜ ê°’ì„ ìž…ë ¥: ";
         cin >> x;
 
         for (;;)
         {
             
-        cout << "¿¬»êÀÚ¸¦ ÀÔ·Â: ";
+        cout << "ì—°ì‚°ìžë¥¼ ìž…ë ¥: ";
         cin >>oper;
 
         if (oper == 'q')
         {
-            cout << "Á¾·á";
+            cout << "ì¢…ë£Œ";
             break;
             return 0;
         }
         if (oper == 'c')
         {
-            cout << "ÃÊ±âÈ­";
+            cout << "ì´ˆê¸°í™”";
+            cout << "Xì˜ ê°’ì„ ìž…ë ¥: ";
+            cin >> x;
+            cout << "ì—°ì‚°ìžë¥¼ ìž…ë ¥: ";
+            cin >>oper;
+            cout << "Yì˜ ê°’ì„ ìž…ë ¥: ";
+            cin >> y;
             sum = 0;     
             break;
         }
 
-        cout << "YÀÇ °ªÀ» ÀÔ·Â: ";
+        cout << "Yì˜ ê°’ì„ ìž…ë ¥: ";
         cin >> y;
 
 
